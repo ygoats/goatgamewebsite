@@ -12,6 +12,12 @@
 	 font-family: 'Quicksand', sans-serif;
      overflow-x: hidden;
 }
+.text-white {
+	color: white !important;
+}
+.text-strange {
+	color: yellowgreen;
+}
  #toggle {
 	 position: fixed;
 	 z-index: 3;
@@ -309,8 +315,19 @@ input[type='checkbox'] {
     height: 18px;
 }
 
+
+/*****************    faq    **********************/
 #faq-area {
     height: 800px;
     background-color: #11111166;
     border-radius: 20px;
+}
+
+.faq-logo-section {
+	height: 10vw !important;
+}
+
+.faq-image {
+	width: 15vw;
+	height: 10vw;
 }
